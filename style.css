@@ -1,0 +1,56 @@
+body {
+    background-color: lightblue;
+}
+
+header {
+    background-color: #b39ddb; /* This is a hexidecimal code for if you want to be technical */
+    padding: 10px; /* Space between content and block */
+}
+
+h1, li { /* target two elements at once! */
+    color: rgb(108, 69, 199); /* This is RGB, if you're a masochist! */
+}
+
+h2 {
+    color: chocolate;
+    text-decoration: overline;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 25px;
+    text-decoration: dotted;
+    color: brown;
+}
+
+h6 {
+    color: crimson;
+    text-shadow: 2px 4px greenyellow;
+    font-size: 20px;
+}
+
+button {
+    border: 3px solid goldenrod;
+}
+
+/* use . to target a class */
+
+.shopping-button {
+    background-color: purple;
+}
+
+.login-button {
+    background-color: orange;
+}
+
+/* Use # to target IDs */
+
+#checkout, #logout{
+    background-color: red;
+    border-radius: 40%; /* Makes things round */
+}
+
+.shopping-container {
+    border-style: outset;
+    border-color: green;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html> <!-- Tells ALL computers you are working with HTML -->
+<html lang="en"> <!-- Sets language of code to english. You can write code in spanish or even arabic! -->
+<head> <!-- Sets display and properties -->
+    <meta charset="UTF-8"> <!-- Sets the characters to roman alphabet -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Fixes viewport for all screen sizes -->
+    <title>HTML & CSS Intro</title> <!-- Name of page in tab -->
+</head>
+
+
+<body> <!-- EVERYTHING visible goes here, and must go here -->
+
+    <header>
+        <h1>Hello dudes! I'm a Header 1 tag!</h1>
+        <h2>I am the smaller, inferior Header 2 tag...</h2>
+        <h3>I am the even smaller H3 tag, we have very few uses /s...</h3>
+        <h2>Please just shut up</h2>
+        <h6>My brother in christ... I am header SIX! Rude...</h6>
+    </header>
+
+    <nav>
+        <div> <!-- Divs keep code blocks encapsulated and catagorized for stylization and JavaScript use -->
+            <a href="http://GoGigantic.com" target="_blank">
+                <h3>Go Gigantic!</h3>
+            </a>
+            <a href="http://www.google.com" target="_blank"> <!-- target="_blank" forces links to open in NEW tab instead of current -->
+                <h3>Goooooooooogle!</h3> <!-- both anchor (link) and h3 have been nested inside of this div! -->
+            </a>
+        </div>
+    </nav>
+
+
+
+
+    <main>
+
+        <div>
+            <ul> <!-- Unordered list, bulleted list -->
+                <li>About me</li>
+                <li>Contact Me</li>
+                <li>Resume</li>
+            </ul>
+        </div> 
+
+        <div>
+            <ol> <!-- Ordered list, numbered list -->
+                <li>Teach HTML</li>
+                <li>Teach CSS</li>
+                <li>Teach JavaScript</li>
+                <li>Teach Python</li>
+            </ol>
+        </div>
+
+        <div id="button-container"> <!-- IDs are used for CSS/JavaScript targeting. MUST be one word, preferably a dash -->
+            <button class="login-button">Log in</button> <!-- Classes work similarly, less specific -->
+            <button class="login-button">Create Account</button>
+            <button id="logout">Sign Out</button>
+        </div>
+
+
+        <h1>Buy our stuff!</h1>
+        <p>Seriously, how else can we leech off of yo- I-I mean provide you great service?</p>
+
+        <main>
+            <div class="shopping-container">
+                <button class="shopping-button">Add to Cart</button> 
+                <button class="shopping-button">Continue Shopping</button>
+                <button id="checkout">Checkout</button>
+            </div>
+            <p>Tell your friends about us! So we can spread our influe- I mean provide for them</p>
+            <div class="review-container">
+                <button class="feedback-button">Rate us!</button> 
+                <button class="feedback-button">Share!</button>
+                <button id="download-button">Download app</button>
+            </div>
+        </main>
+        
+    </main>
+
+<!--  Indentation/spacing does not matter, but it makes code readable and erros/display bugs more noticable. So it's good practice -->
+</body>
+
+
+
+</html>

@@ -1,0 +1,3 @@
+Quick notes:
+
+1. CSS will style up and pretty up our webpage! it has its own syntax and its own rules!

@@ -1,0 +1,9 @@
+Quick notes:
+
+1. Indentation doesn't matter, but it makes code READABLE and makes bugs and glitches VISIBLE
+2. Block elements don't share a line. Inline elements will share a line. When mixed, block runs away or pushes the inline off
+    a. Albiet, if you want you can override it with grid/flix
+3. EVERYTHING visible must be placed in BODY. All page properties are placed in HEAD
+4. Semantic tags (div, nav, header, section, article, aside) all do the same thing but varied use makes code READABLE
+5. Classes and IDs are used so JS and CSS can target page elements
+    a. Classes are broad, IDs are more specific
